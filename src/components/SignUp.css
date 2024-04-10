@@ -1,0 +1,78 @@
+/* SignUp.css */
+
+.signup-container {
+  max-width: 360px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ffc107; /* Bright border color for optimism */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff3cd; /* Light background for a friendly feel */
+}
+
+.signup-header {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.signup-header h2 {
+  color: #856404; /* Darker text for contrast */
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.signup-form-group {
+  margin-bottom: 15px;
+}
+
+.signup-form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #856404; /* Ensuring readability */
+  font-size: 14px;
+}
+
+.signup-form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffeeba; /* Soft border color */
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #fffbea; /* Very light input background for distinction */
+}
+
+.signup-form-group input:focus {
+  border-color: #ffeeba;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 193, 7, 0.5); /* Focus color similar to border */
+}
+
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #ffc107; /* Cheerful button color */
+  color: #212529;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.signup-button:hover {
+  background-color: #e0a800;
+}
+
+.signup-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.signup-footer a {
+  color: #856404;
+  text-decoration: none;
+}
+
+.signup-footer a:hover {
+  text-decoration: underline;
+}
